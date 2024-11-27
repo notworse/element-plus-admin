@@ -1,15 +1,15 @@
 <template>
-  <AppLayout />
+  <AppMain />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import AppLayout from './components/AppLayout.vue';
+import AppMain from './components/AppMain.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    AppLayout
+    AppMain
   }
 });
 </script>

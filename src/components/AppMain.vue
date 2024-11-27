@@ -19,7 +19,7 @@ import BaseHeader from './layouts/BaseHeader.vue';
 import BaseSide from './layouts/BaseSide.vue';
 
 export default defineComponent({
-  name: 'AppLayout',
+  name: 'AppMain',
   components: {
     BaseSide
   },
